@@ -57,13 +57,13 @@ class Student {
 		this.roll_no = roll_no;
 	}
 
-	// operation 1....
+	// operation 1.... 
 	public static void setDetails(Student[] arr, int n, String first_name, String last_name, int roll_no) {
 		arr[n] = new Student(first_name, last_name, roll_no);
 
 	}
 
-	// operation 2...
+	// operation 2... -->TC:- O(n)
 	public static void showDetail(Student arr[]) {
 		System.out.println("Getting Data...");
 		for (int i = 0; i < arr.length; i++) {
