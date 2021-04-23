@@ -8,7 +8,7 @@ package com.data.structures.array;
 
 public class ArrayOperationTID {
 
-	// Array Traversal
+	// Array Traversal -->TC:- O(n)
 	public static void display(int arr[]) {
 		for (int j = 0; j < arr.length; j++) {
 			System.out.print(arr[j] + "\t");
@@ -16,7 +16,7 @@ public class ArrayOperationTID {
 		System.out.println();
 	}
 
-	// Array Insertion...
+	// Array Insertion... -->TC:- O(n)
 	public static void insertElement(int arr[], int lastIndex, int index, int value) {
 		System.out.println("Insert Element: " + value + " At " + (index + 1) + " Position.");
 		for (int i = lastIndex; i >= index; i--) {
@@ -25,7 +25,7 @@ public class ArrayOperationTID {
 		arr[index] = value;
 	}
 
-	// Array Deletion...
+	// Array Deletion... -->TC:- O(n)
 	public static void deleteElement(int arr[], int index) {
 		System.out.println("Delete Element: " + arr[index] + " From " + (index + 1) + " Position.");
 		for (int i = index; i < arr.length - 1; i++) {
