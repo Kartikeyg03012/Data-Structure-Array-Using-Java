@@ -1,4 +1,4 @@
-# Data-Structure-Using-Java
+# Data-Structure-Array-Using-Java
 Here, I provide you all the fundamentals of data structure using Java language with **Code**
 
 # Code By Kartikey Gupta
