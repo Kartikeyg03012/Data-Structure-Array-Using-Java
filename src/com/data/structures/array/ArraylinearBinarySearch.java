@@ -8,7 +8,7 @@ package com.data.structures.array;
 
 public class ArraylinearBinarySearch {
 
-	// Linear Search....
+	// Linear Search....-->TC:- O(n)
 	public static int linearSearch(int arr[], int element) {
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] == element) {
@@ -20,7 +20,7 @@ public class ArraylinearBinarySearch {
 		return -1;
 	}
 
-	// Binary Search
+	// Binary Search -->TC:- O(log n)
 	public static int binarySearch(int arr[], int element, int size) {
 		int low = 0, mid = 0, high = size;
 
